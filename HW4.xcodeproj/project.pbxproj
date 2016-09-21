@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B61EDCA61CC43FCB002D64C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61EDCA51CC43FCB002D64C0 /* main.cpp */; };
+		B61EDCB01CC4405D002D64C0 /* DictionaryBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61EDCAE1CC4405D002D64C0 /* DictionaryBST.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B61EDCA21CC43FCB002D64C0 /* HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW4; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61EDCA51CC43FCB002D64C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B61EDCAE1CC4405D002D64C0 /* DictionaryBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictionaryBST.cpp; sourceTree = "<group>"; };
+		B61EDCB11CC44078002D64C0 /* DictionaryBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryBST.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B61EDCA51CC43FCB002D64C0 /* main.cpp */,
+				B61EDCAE1CC4405D002D64C0 /* DictionaryBST.cpp */,
+				B61EDCB11CC44078002D64C0 /* DictionaryBST.h */,
 			);
 			path = HW4;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61EDCA61CC43FCB002D64C0 /* main.cpp in Sources */,
+				B61EDCB01CC4405D002D64C0 /* DictionaryBST.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +215,7 @@
 		B61EDCAA1CC43FCB002D64C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +223,7 @@
 		B61EDCAB1CC43FCB002D64C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +247,7 @@
 				B61EDCAB1CC43FCB002D64C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

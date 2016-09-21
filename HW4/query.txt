@@ -1,0 +1,8 @@
+ density 
+ source
+ pointer 
+ parse 
+ journal 
+ algorithm 
+ name 
+ cloud

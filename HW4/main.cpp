@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "DictionaryBST.h"
+#include <string>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    DictionaryBST *dic = new DictionaryBST("/Users/Usman/Desktop/CS/CS202/hw4/HW4/HW4/test.txt");
+    dic -> search("/Users/Usman/Desktop/CS/CS202/hw4/HW4/HW4/query.txt","/Users/Usman/Desktop/CS/CS202/hw4/HW4/HW4/outputBST.txt");
+        return 0;
+    
 }
