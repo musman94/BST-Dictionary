@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B61EDCA21CC43FCB002D64C0 /* HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW4; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61EDCA21CC43FCB002D64C0 /* BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BST; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61EDCA51CC43FCB002D64C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B61EDCAE1CC4405D002D64C0 /* DictionaryBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictionaryBST.cpp; sourceTree = "<group>"; };
 		B61EDCB11CC44078002D64C0 /* DictionaryBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryBST.h; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		B61EDC991CC43FCB002D64C0 = {
 			isa = PBXGroup;
 			children = (
-				B61EDCA41CC43FCB002D64C0 /* HW4 */,
+				B61EDCA41CC43FCB002D64C0 /* BST */,
 				B61EDCA31CC43FCB002D64C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,28 @@
 		B61EDCA31CC43FCB002D64C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B61EDCA21CC43FCB002D64C0 /* HW4 */,
+				B61EDCA21CC43FCB002D64C0 /* BST */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B61EDCA41CC43FCB002D64C0 /* HW4 */ = {
+		B61EDCA41CC43FCB002D64C0 /* BST */ = {
 			isa = PBXGroup;
 			children = (
 				B61EDCA51CC43FCB002D64C0 /* main.cpp */,
 				B61EDCAE1CC4405D002D64C0 /* DictionaryBST.cpp */,
 				B61EDCB11CC44078002D64C0 /* DictionaryBST.h */,
 			);
+			name = BST;
 			path = HW4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B61EDCA11CC43FCB002D64C0 /* HW4 */ = {
+		B61EDCA11CC43FCB002D64C0 /* BST */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B61EDCA91CC43FCB002D64C0 /* Build configuration list for PBXNativeTarget "HW4" */;
+			buildConfigurationList = B61EDCA91CC43FCB002D64C0 /* Build configuration list for PBXNativeTarget "BST" */;
 			buildPhases = (
 				B61EDC9E1CC43FCB002D64C0 /* Sources */,
 				B61EDC9F1CC43FCB002D64C0 /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = HW4;
+			name = BST;
 			productName = HW4;
-			productReference = B61EDCA21CC43FCB002D64C0 /* HW4 */;
+			productReference = B61EDCA21CC43FCB002D64C0 /* BST */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B61EDC9D1CC43FCB002D64C0 /* Build configuration list for PBXProject "HW4" */;
+			buildConfigurationList = B61EDC9D1CC43FCB002D64C0 /* Build configuration list for PBXProject "BST" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B61EDCA11CC43FCB002D64C0 /* HW4 */,
+				B61EDCA11CC43FCB002D64C0 /* BST */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +232,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B61EDC9D1CC43FCB002D64C0 /* Build configuration list for PBXProject "HW4" */ = {
+		B61EDC9D1CC43FCB002D64C0 /* Build configuration list for PBXProject "BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B61EDCA71CC43FCB002D64C0 /* Debug */,
@@ -240,7 +241,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B61EDCA91CC43FCB002D64C0 /* Build configuration list for PBXNativeTarget "HW4" */ = {
+		B61EDCA91CC43FCB002D64C0 /* Build configuration list for PBXNativeTarget "BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B61EDCAA1CC43FCB002D64C0 /* Debug */,

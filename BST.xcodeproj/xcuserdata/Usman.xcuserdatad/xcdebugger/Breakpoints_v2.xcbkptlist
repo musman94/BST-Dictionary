@@ -16,7 +16,7 @@
             startingLineNumber = "107"
             endingLineNumber = "107"
             landmarkName = "DictionaryBST::add(BSTnode *&amp; rootptr, BSTnode* item)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "115"
             endingLineNumber = "115"
             landmarkName = "DictionaryBST::add(BSTnode *&amp; rootptr, BSTnode* item)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
